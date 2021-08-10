@@ -26,8 +26,8 @@
     "tsd": "^0.14.0",
     "typescript": "^4.2.3"
   },
-  "directories":{
-    "platforms": "platforms"
+  "directories": {
+    "bin": "platforms"
   },
   "repository": {
     "type": "git",
