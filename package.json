@@ -26,9 +26,9 @@
     "tsd": "^0.14.0",
     "typescript": "^4.2.3"
   },
-  "directories": {
-    "bin": "platforms"
-  },
+  "files": [
+    "platforms"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kribblo/node-ffmpeg-installer.git"
