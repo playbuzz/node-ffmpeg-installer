@@ -21,20 +21,16 @@
   "author": "Kristoffer Lundén <kristoffer.lunden@gmail.com>",
   "license": "LGPL-2.1",
   "description": "Platform independent binary installer of FFmpeg for node projects",
-  "optionalDependencies": {
-    "@ffmpeg-installer/darwin-x64": "4.3.1",
-    "@ffmpeg-installer/linux-ia32": "4.3.1",
-    "@ffmpeg-installer/linux-x64": "4.3.1",
-    "@ffmpeg-installer/win32-ia32": "4.1.0",
-    "@ffmpeg-installer/win32-x64": "4.1.0",
-    "@ffmpeg-installer/linux-arm": "4.3.1",
-    "@ffmpeg-installer/linux-arm64": "4.3.1"
-  },
   "devDependencies": {
-    "jshint": "2.12.0"
+    "jshint": "2.12.0",
     "tsd": "^0.14.0",
     "typescript": "^4.2.3"
   },
+  "files": [
+    "platforms",
+    "lib",
+    "types"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kribblo/node-ffmpeg-installer.git"
