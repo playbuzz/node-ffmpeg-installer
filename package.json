@@ -27,7 +27,9 @@
     "typescript": "^4.2.3"
   },
   "files": [
-    "platforms"
+    "platforms",
+    "lib",
+    "types"
   ],
   "repository": {
     "type": "git",
