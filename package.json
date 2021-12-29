@@ -1,5 +1,5 @@
 {
-  "name": "@ffmpeg-installer/ffmpeg",
+  "name": "@playbuzz/ffmpeg-installer",
   "version": "1.1.0",
   "main": "index.js",
   "scripts": {
@@ -7,7 +7,7 @@
     "preversion": "npm run lint",
     "types": "tsc",
     "preupload": "npm run types",
-    "upload": "npm --userconfig=.npmrc publish --access public",
+    "upload": "npm --userconfig=.npmrc publish --access private",
     "test": "tsd"
   },
   "types": "types/index.d.ts",
@@ -33,10 +33,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kribblo/node-ffmpeg-installer.git"
+    "url": "git+https://github.com/playbuzz/node-ffmpeg-installer.git"
   },
   "bugs": {
-    "url": "https://github.com/kribblo/node-ffmpeg-installer/issues"
+    "url": "https://github.com/playbuzz/node-ffmpeg-installer/issues"
   },
-  "homepage": "https://github.com/kribblo/node-ffmpeg-installer#readme"
+  "homepage": "https://github.com/playbuzz/node-ffmpeg-installer#readme"
 }
